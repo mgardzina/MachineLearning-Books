@@ -1,74 +1,83 @@
 # Machine Learning Learning Materials
 
-This repository contains a collection of educational materials, notebooks, and resources for learning Machine Learning and Artificial Intelligence concepts. The materials are organized in a sequential manner, starting from basic concepts to more advanced topics.
+A comprehensive collection of educational materials and resources for learning Machine Learning and Artificial Intelligence, organized in a sequential learning path from fundamentals to advanced topics.
 
-## Repository Structure
+## 📚 Learning Path
 
-### Core Learning Materials
-- `01_wstęp_do_AI.pdf` - Introduction to Artificial Intelligence
-- `02_wstep_do_pythona.ipynb` - Python Programming Basics
-- `03_ml_intro.ipynb` - Introduction to Machine Learning
-- `04_regresja_liniowa.ipynb` - Linear Regression
-- `05_wstęp_do_sieci_neuronowych.pdf` - Introduction to Neural Networks
+### 1. Foundations
+- `01_wstęp_do_AI.pdf` - Introduction to AI concepts and history
+- `02_wstep_do_pythona.ipynb` - Python programming essentials
+- `03_ml_intro.ipynb` - Machine Learning fundamentals
+- `00_numpy_wektory_macierze.ipynb` - NumPy for numerical computing
+
+### 2. Basic Machine Learning
+- `04_regresja_liniowa.ipynb` - Linear Regression implementation
 - `06_regresja_logistyczna.ipynb` - Logistic Regression
-- `06.2_regresja_logistyczna_nn.ipynb` - Logistic Regression with Neural Networks
-- `07_gradient_descent.ipynb` - Gradient Descent
-- `08_sieci_konwolucyjne.pdf` - Convolutional Neural Networks
-- `08_pytorch_CNN.ipynb` - PyTorch CNN Implementation
-- `09_nlp.pdf` - Natural Language Processing
-- `09_word_embeddings.ipynb` - Word Embeddings
-- `10_transformery.pdf` - Transformers
-- `11_wstep_do_duzych_modeli_jezykowych_LLM.pdf` - Introduction to Large Language Models
-- `12_Zadania_detekcji_i_segmentacji.pdf` - Detection and Segmentation Tasks
+- `06.2_regresja_logistyczna_nn.ipynb` - Neural Network approach to Logistic Regression
+- `07_gradient_descent.ipynb` - Understanding and implementing Gradient Descent
 
-### Additional Resources
-- `00_numpy_wektory_macierze.ipynb` - NumPy: Vectors and Matrices
-- Various PDF resources and technical reports
+### 3. Deep Learning
+- `05_wstęp_do_sieci_neuronowych.pdf` - Neural Networks fundamentals
+- `08_sieci_konwolucyjne.pdf` - CNN theory and concepts
+- `08_pytorch_CNN.ipynb` - Practical CNN implementation with PyTorch
 
-## Getting Started
+### 4. Natural Language Processing
+- `09_nlp.pdf` - NLP fundamentals and techniques
+- `09_word_embeddings.ipynb` - Word embeddings implementation
+- `10_transformery.pdf` - Transformer architecture
+- `11_wstep_do_duzych_modeli_jezykowych_LLM.pdf` - Large Language Models
 
-1. Clone this repository:
+### 5. Computer Vision
+- `12_Zadania_detekcji_i_segmentacji.pdf` - Object detection and image segmentation
+
+## 🚀 Getting Started
+
+1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/MachineLearning-Books.git
+cd MachineLearning-Books
 ```
 
-2. Set up a Python virtual environment (recommended):
+2. Set up the Python environment:
 ```bash
+# Create virtual environment
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Activate virtual environment
+# On Windows:
+.venv\Scripts\activate
+# On Unix/MacOS:
+source .venv/bin/activate
 ```
 
-3. Install required dependencies (if requirements.txt is available)
+3. Install dependencies (if available):
+```bash
+pip install -r requirements.txt
+```
 
-## Content Overview
+## 📖 Additional Resources
 
-The materials cover a wide range of topics in machine learning and artificial intelligence:
+The repository includes supplementary materials:
+- Technical reports and research papers
+- Deep learning resources (`lbdl.pdf`)
+- Model architecture papers (DeepSeek series)
+- Various technical documentation
 
-- Basic Python programming
-- Fundamental ML concepts
-- Linear and Logistic Regression
-- Neural Networks and Deep Learning
-- Convolutional Neural Networks (CNN)
-- Natural Language Processing (NLP)
-- Transformers and Large Language Models
-- Computer Vision tasks (Detection and Segmentation)
+## 🤝 Contributing
 
-## Additional Resources
-
-The repository also includes various technical reports and research papers that provide deeper insights into specific topics.
-
-## Contributing
-
-Feel free to contribute to this repository by:
+Contributions are welcome! You can help by:
 - Reporting issues
 - Suggesting improvements
 - Adding new learning materials
-- Correcting errors in existing materials
+- Correcting errors in existing content
 
-## License
+## 📝 License
 
-[Add appropriate license information here]
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## 📧 Contact
 
-[Add your contact information here] 
+For questions or suggestions, please open an issue in the repository.
+
+---
+*Note: This repository is maintained for educational purposes. All materials are provided as-is.* 
